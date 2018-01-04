@@ -1,13 +1,13 @@
-Rexpress
+# Rexpress
 
-#About
+## About
 
 React and Express based on Traversy Media wideo on YT
 
-##Install
+### Install
 
     npm run install-app
 
-##Run
+###Run
 
     npm start
