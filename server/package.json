@@ -1,0 +1,23 @@
+{
+  "name": "Rexpress-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./config/server.js",
+  "scripts": {
+    "server-install": "npm install",
+    "client-install": "cd ../client && npm install",
+    "server": "nodemon ./config/server.js",
+    "client": "cd ../client && npm start ",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "Marcin Gryczon",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.7"
+  }
+}

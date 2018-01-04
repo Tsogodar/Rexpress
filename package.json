@@ -1,0 +1,11 @@
+{
+  "name": "Rexpress",
+  "version": "1.0.0",
+  "description": "Rexpress scripts manage file",
+  "scripts": {
+    "start": " cd server && npm run dev",
+    "app-install":"cd server && npm install && cd ../client && npm install"
+  },
+  "author": "Marcin Gryczon",
+  "license": "MIT"
+}
